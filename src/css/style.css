@@ -1,0 +1,138 @@
+#fundo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 35px;
+    width: 975px;
+    height: 630px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+article .title {
+    color: #36384e;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.explicacao {
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+ul li {
+    line-height: 2.5em;
+    text-align: start;
+
+}
+
+ul li img {
+    margin-right: 5px;
+}
+
+.item-um, .item-dois, 
+.item-tres{
+    display: flex;
+}
+
+#inscricao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inscricao label {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+#error {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1em;
+    color: #d30909e9;
+    display: none;
+}
+
+#email {
+    border: 1px #9294a0 solid;
+    border-radius: 7px;
+    width: 325px;
+    height: 50px;
+    margin-top: 0.7em;
+    text-align: center;
+}
+
+#btn {
+    background-color: #36384e;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    width: 325px;
+    height: 40px;
+    margin-top: 0.7em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+.bg-imagem{
+    padding: 20px;
+}
+
+#card {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    padding: 4%;
+    align-items: start;
+    background-color: #ffffff;
+    border-radius: 35px;
+    width: 470px;
+    height: 470px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.info-title {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#btn-success {
+    background-color: #36384e;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    width: 325px;
+    height: 40px;
+    margin-top: 0.7em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-success:hover {
+    opacity: 0.8;
+}
+
+.attribution {
+    color: #fff;
+    font-weight: 700;
+}

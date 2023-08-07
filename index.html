@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/query.css">
+
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+    <main id="fundo">
+        <section class="escrita">
+            <article>
+                <div id="descricao">
+                    <h2 class="title">Stay updated!</h2>
+                    <p class="explicacao">Join 60,000+ product managers receiving monthly <br> update on:</p>
+
+                    <ul class="lista-de-bene">
+                        <li class="item-um"><img src="/src/img/icon-list.svg" id="verificado">Product discovery and building what matters</li>
+                        <li class="item-dois"><img src="/src/img/icon-list.svg" id="verificado">Measuring to ensure updates are a success</li>
+                        <li class="item-tres"><img src="/src/img/icon-list.svg" id="verificado">And much more!</li>
+                    </ul> 
+                </div>
+
+                <div id="inscricao">
+                    
+                    <label for="email">Email address</label>
+                    <input type="text" id="email" oninput="emailvalidate()">
+                    <p id="error">Valid email required</p>
+                    <button type="button" id="btn" onclick="verificarEmail()">Subscribe to monthly newsletter</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="bg-imagem">
+            <img src="/src/img/illustration-sign-up-desktop.svg" alt="img de background">
+        </section>
+    </main>
+
+    <section id="card">
+        <div class="img-info">
+            <img src="/src/img/icon-success.svg" alt="Deu Certo">
+        </div>
+
+        <div id="information">
+            <h2 class="info-title">Thanks for <br> subscribing!</h2>
+            <p class="text-info">A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. Plase open it and click the button inside to confirm your subscription.</p>
+
+            <button type="button" id="btn-success" onclick="clickCardBtn()">Dismiss message</button>
+        </div>
+    </section>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="/assets/index.js"></script>
+</body>
+</html>

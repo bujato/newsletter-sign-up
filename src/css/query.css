@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+    #fundo{
+        display: flex;
+        width: 830px;
+        height: 630px;
+    }
+
+    .escrita article{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    #fundo{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #ffffff;
+        border-radius: 35px;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    .escrita article{
+        width: 100%;
+        height: 100%;
+    }
+}
